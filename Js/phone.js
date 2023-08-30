@@ -8,6 +8,8 @@ const loadPhone = async(searchText) =>{
 const displayPhones = phones =>{
     // console.log(phones);
     const phoneContainer = document.getElementById('phone-container')
+    // clear phone container
+    phoneContainer.textContent = ' '
     phones.forEach(phone => {
         console.log(phone);
         // create a div 
